@@ -1,4 +1,5 @@
 # CipherSec
+CipherSec is an open-source and free Python based tool capable of encrypting and decrypting text using Caesar, Atbash, and Vigenere ciphers.
 
 ## Installation
 You need to have Python3
@@ -10,7 +11,7 @@ sudo apt-get install python3
 Downloading and setting up tool:
 
 ```bash
-git clone
+git clone https://github.com/Yash0x01/CipherSec.git
 cd CipherSec
 pip3 install -r requirements.txt
 ```
@@ -18,12 +19,12 @@ pip3 install -r requirements.txt
 ## Usage
 
 ```bash
-usage: ciphersec.py [-h] [-s SHIFT] [-k KEYWORD] {encrypt,decrypt} {caesar,atbash,vigenere} text
+usage: ciphersec.py [-h] [-s SHIFT] [-k KEY] {encrypt,decrypt} {caesar,atbash,vigenere} text
 
 Encrypt or decrypt text using various ciphers.
 
 positional arguments:
-  {encrypt, decrypt}     Mode: encrypt or decrypt
+  {encrypt,decrypt}     Mode: encrypt or decrypt
   {caesar,atbash,vigenere}
                         Cipher: caesar, atbash, or vigenere
   text                  Text to be processed
@@ -31,9 +32,8 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -s SHIFT, --shift SHIFT
-                        Shift for Caesar cipher
-  -k KEYWORD, --keyword KEYWORD
-                        Keyword for Vigenere cipher
+                        Shift Key for Caesar cipher
+  -k KEY, --key KEY     key for Vigenere cipher
 
 Example - python3 ciphersec.py decrypt caesar "Kvu'a mvynla av mvssvd Fhzo0e01 vu NpaObi!" -s 7
 ```
