@@ -1,6 +1,8 @@
 # CipherSec
 CipherSec is an open-source and free Python based tool capable of encrypting and decrypting text using Caesar, Atbash, and Vigenere ciphers.
 
+![CipherSec Tool](image.png)
+
 ## Installation
 You need to have Python3
 
