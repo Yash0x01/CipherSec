@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-```bash
+```console
 usage: ciphersec.py [-h] [-s SHIFT] [-k KEY] {encrypt,decrypt} {caesar,atbash,vigenere} text
 
 Encrypt or decrypt text using various ciphers.
