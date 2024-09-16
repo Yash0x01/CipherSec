@@ -12,7 +12,7 @@ sudo apt-get install python3
 
 Downloading and setting up tool:
 
-```bash
+```
 git clone https://github.com/Yash0x01/CipherSec.git
 cd CipherSec
 pip3 install -r requirements.txt
